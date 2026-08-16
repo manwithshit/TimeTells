@@ -1,3 +1,7 @@
+<p align="right">
+  <strong>中文</strong> · <a href="./README.en.md">English</a>
+</p>
+
 <p align="center">
   <img src="./assets/readme/hero.svg" width="100%" alt="Time Tells：把一张真人的脸从婴儿拖到 80 岁，页面只切本地帧">
 </p>
