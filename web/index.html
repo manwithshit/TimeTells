@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f3ed" />
+    <title>Time Tells</title>
+    <link rel="stylesheet" href="assets/styles.css?v=1" />
+  </head>
+  <body>
+    <main>
+      <section class="stage">
+        <h1 class="wordmark">Time Tells</h1>
+        <section class="portrait" aria-live="polite">
+          <img id="portrait" alt="Age progression portrait" draggable="false" />
+        </section>
+        <section class="timeline">
+          <output class="age-pill" id="age" for="ageSlider">Baby</output>
+          <div class="ruler-window" id="rulerWindow">
+            <div class="ruler-track" id="rulerTrack" aria-hidden="true"></div>
+            <span class="ruler-needle" aria-hidden="true"></span>
+            <input id="ageSlider" type="range" min="0" max="80" value="0" step="1" aria-label="Age" />
+          </div>
+        </section>
+      </section>
+    </main>
+    <script src="assets/app.js?v=1"></script>
+  </body>
+</html>
