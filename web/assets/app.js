@@ -70,9 +70,11 @@ window.addEventListener("keydown", (event) => {
   }
 });
 
-for (let age = 0; age <= 80; age += 1) {
-  const image = new Image();
-  image.src = sourceFor(age);
+if (!params.has("shot")) {
+  for (let age = 0; age <= 80; age += 1) {
+    const image = new Image();
+    image.src = sourceFor(age);
+  }
 }
 
 render();

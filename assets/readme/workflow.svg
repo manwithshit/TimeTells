@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+  <title id="title">How Time Tells is built</title>
+  <desc id="desc">A photo becomes 16 age stills, a local script writes 81 frames, then the page only switches files.</desc>
+  <rect width="1200" height="220" rx="26" fill="#f7f7f5"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif">
+    <rect x="36" y="36" width="250" height="148" rx="18" fill="#fff" stroke="#e4e2dc"/>
+    <text x="161" y="88" text-anchor="middle" fill="#8b877f" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">01</text>
+    <text x="161" y="126" text-anchor="middle" fill="#171714" font-size="22">Your photo</text>
+    <text x="161" y="156" text-anchor="middle" fill="#5c5a55" font-size="16">16 age stills</text>
+
+    <path d="M300 110 H348" stroke="#adaca5" stroke-width="2"/>
+    <path d="M336 100 L348 110 L336 120" fill="none" stroke="#adaca5" stroke-width="2"/>
+
+    <rect x="360" y="36" width="250" height="148" rx="18" fill="#fff" stroke="#e4e2dc"/>
+    <text x="485" y="88" text-anchor="middle" fill="#8b877f" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">02</text>
+    <text x="485" y="126" text-anchor="middle" fill="#171714" font-size="22">process.py</text>
+    <text x="485" y="156" text-anchor="middle" fill="#5c5a55" font-size="16">align · crop · morph</text>
+
+    <path d="M624 110 H672" stroke="#adaca5" stroke-width="2"/>
+    <path d="M660 100 L672 110 L660 120" fill="none" stroke="#adaca5" stroke-width="2"/>
+
+    <rect x="684" y="36" width="250" height="148" rx="18" fill="#fff" stroke="#e4e2dc"/>
+    <text x="809" y="88" text-anchor="middle" fill="#8b877f" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">03</text>
+    <text x="809" y="126" text-anchor="middle" fill="#171714" font-size="22">81 local frames</text>
+    <text x="809" y="156" text-anchor="middle" fill="#5c5a55" font-size="16">baby to 80</text>
+
+    <path d="M948 110 H996" stroke="#adaca5" stroke-width="2"/>
+    <path d="M984 100 L996 110 L984 120" fill="none" stroke="#adaca5" stroke-width="2"/>
+
+    <rect x="1008" y="36" width="156" height="148" rx="18" fill="#171714"/>
+    <text x="1086" y="112" text-anchor="middle" fill="#f7f7f5" font-size="22">Drag</text>
+    <text x="1086" y="142" text-anchor="middle" fill="#c4c3bd" font-size="16">no API</text>
+  </g>
+</svg>

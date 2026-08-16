@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Time Tells</title>
+  <desc id="desc">Drag one real face from baby to 80. Sixteen photos in, a local slider out.</desc>
+  <rect width="1200" height="340" rx="26" fill="#f7f7f5"/>
+  <text x="64" y="78" fill="#8b877f" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="3.2">LOCAL AGE SLIDER</text>
+  <text x="64" y="168" fill="#171714" font-family="Palatino, Palatino Linotype, Iowan Old Style, Georgia, serif" font-size="72" letter-spacing="8">TIME TELLS</text>
+  <text x="64" y="220" fill="#171714" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="26">Drag one real face from baby to 80.</text>
+  <text x="64" y="258" fill="#5c5a55" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="20">Generate 16 stills. Process once. The page never calls a model.</text>
+
+  <g transform="translate(64 292)" fill="none" stroke="#adaca5" stroke-width="2">
+    <line x1="0" y1="0" x2="1072" y2="0" stroke="#e4e2dc"/>
+    <line x1="214" y1="-16" x2="214" y2="10" stroke="#171714" stroke-width="3"/>
+  </g>
+  <g fill="#c4c3bd">
+    <rect x="64" y="284" width="2" height="16"/>
+    <rect x="131" y="288" width="2" height="12"/>
+    <rect x="198" y="288" width="2" height="12"/>
+    <rect x="278" y="284" width="2" height="16"/>
+    <rect x="345" y="288" width="2" height="12"/>
+    <rect x="412" y="288" width="2" height="12"/>
+    <rect x="492" y="284" width="2" height="16"/>
+    <rect x="706" y="284" width="2" height="16"/>
+    <rect x="920" y="284" width="2" height="16"/>
+    <rect x="1134" y="284" width="2" height="16"/>
+  </g>
+  <text x="268" y="318" fill="#8b877f" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">0 · 20 · 40 · 60 · 80</text>
+</svg>

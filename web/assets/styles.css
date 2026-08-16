@@ -151,12 +151,28 @@ input[type="range"] {
   main {
     padding: max(10px, env(safe-area-inset-top)) 16px max(10px, env(safe-area-inset-bottom));
   }
+  .wordmark {
+    font-size: clamp(26px, 8vw, 36px);
+    letter-spacing: .11em;
+  }
   .portrait { width: min(25.1svh, 45vw); }
   .timeline { width: 94vw; height: 96px; }
 }
 
+@media (max-width: 400px) {
+  .wordmark {
+    font-size: 22px;
+    letter-spacing: .07em;
+    padding: 0 8px;
+  }
+}
+
 @media (max-height: 700px) {
-  .wordmark { margin-bottom: 14px; font-size: clamp(26px, 7vw, 38px); }
+  .wordmark { margin-bottom: 14px; }
   .portrait { width: min(22svh, 154px, 43vw); }
   .timeline { height: 88px; }
+}
+
+@media (max-height: 700px) and (min-width: 401px) {
+  .wordmark { font-size: clamp(26px, 7vw, 38px); }
 }
