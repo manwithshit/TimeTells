@@ -12,7 +12,9 @@ Generate **exactly 16** still photographs. One age per image. One image at a tim
 
 ## Output files
 
-Save as square 1024×1024 WebP (PNG is acceptable if WebP is unavailable):
+Save as square 1024×1024 WebP.
+
+If your image tool can only export PNG, save the PNG and then **rename the file extension to `.webp`**. Do not convert it — the pipeline reads image content, not the extension. Files that keep a `.png` extension will be reported as missing.
 
 | File | Age |
 |---|---|
@@ -35,17 +37,28 @@ Save as square 1024×1024 WebP (PNG is acceptable if WebP is unavailable):
 
 ## Look
 
-This is the **顺其自然** track: ordinary time passing, gentle and even. Not exhausted, not athletic-ideal, not stylized.
+This is the **natural** track: ordinary time passing, gentle and even. Not exhausted, not athletic-ideal, not stylized.
 
 Treat every frame as the same ID-photo session continued over a lifetime.
 
 - Photoreal. No illustration, no beauty filter, no anime.
 - Same person. Same slight smile. Same head size and camera height as much as possible.
 - Head-on. Full hair, both ears, full face, rounded chin and jaw.
+- **Fill the frame with the head.** The distance between the two pupils must be at least 1/4 of the image width. A small ID-card head floating in a large empty frame will break the automatic cropping later.
 - No shoulders, clothes, text, watermark, or long neck.
 - Pure white background.
 - Complete teeth. No missing midline, no yellow blotch on the front incisors. One pair of ears, not doubled.
 
 If an image breaks identity, pose, crop, or teeth, regenerate that age only.
+
+## Making your own version
+
+The list above is the base version. To make a different life track, keep everything else and rewrite only the first line of **Look**.
+
+For example, a late-nights version: darker under-eye circles, duller and drier skin, more visible fatigue, ageing slightly ahead of the calendar. Or an athletic version, an outdoor-worker version, whatever you want to define.
+
+Keep the same 16 filenames and regenerate the whole set, so the ages stay consistent.
+
+---
 
 When all 16 files exist, tell the user to paste `prompts/02-install.md` into an agent to install them.
